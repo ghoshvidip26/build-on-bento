@@ -1,6 +1,5 @@
 # Project name
 
-> Copy this folder to `submissions/YourTeamName/` and fill every section below.
 
 ## Project
 
@@ -33,9 +32,6 @@ HedgeOps is an autonomous infrastructure hedging protocol built specifically for
 
 Add 2-4 screenshots or GIFs under `./assets/` and embed them here.
 
-```
-<!-- ![Home](./assets/home.png) -->
-```
 ![Demo1](./assets/Demo1.png)
 ![Demo2](./assets/Demo2.png)
 ![Demo3](./assets/Demo3.png)
@@ -71,20 +67,46 @@ cp .env.example .env   # fill env vars
 npm install            # or pnpm / yarn
 npm run dev
 ```
-
 | Env var | Required | Description |
 |---------|----------|-------------|
+| `ANAKIN_API_KEY` | yes | Anakin SRE API key |
+| `ANAKIN_BASE_URL` | yes | Anakin API base URL (`https://api.anakin.sre/v1`) |
 | `BENTO_BUILDER_API_KEY` | yes | Testnet builder key |
-| `BENTO_URL` | yes | Markets host (`https://internal-server.bento.fun`) |
-| `PARLAY_TOURNMENT_URL` | if needed | `https://bento-fun-tournaments-backend-3nku.onrender.com` |
+| `BENTO_PRIVATE_KEY` | yes | Bento private key |
+| `BENTO_URL` | yes | Markets host (`https://api.bento.fun`) |
+| `PARLAY_TOURNMENT_URL` | if needed | Tournaments endpoint (`https://tournaments.bento.fun`) |
+| `TARGET_REPO` | yes | GitHub repo to monitor (e.g. `facebook/react`) |
+| `POLL_INTERVAL` | no | Polling interval in ms (default: `60000`) |
+| `LOG_LEVEL` | no | Logging level (default: `debug`) |
+| `NODE_ENV` | no | Environment (`development` / `production`) |
+| `OPENAI_API_KEY` | yes | OpenAI API key |
+| `OPENAI_MODEL` | no | OpenAI model to use (default: `gpt-5.5`) |
+| `OPENAI_BASE_URL` | no | OpenAI API base URL (`https://api.openai.com/v1`) |
+| `OPENAI_TIMEOUT_MS` | no | OpenAI request timeout in ms (default: `30000`) |
 
 ---
 
 ## Architecture (short)
 
-- **Stack:**
+- **Stack:** TypeScript, Node.js, Express, Bento SDK (`@bento.fun/sdk`), OpenAI API, Viem, Zod
 - **Repo layout:**
-- **Auth:**
+  - `src/config/` — Environment & CLI arg parsing (Zod-validated)
+  - `src/core/` — Risk engine, decision engine, shared interfaces
+  - `src/infrastructure/` — Bento adapter, Anakin adapter, ChatGPT provider, circuit breaker, storage
+  - `src/prompts/` — LLM prompt templates (incident analysis, retry, system)
+  - `src/scheduler/` — Drift-aware polling scheduler
+  - `src/simulator/` — Incident simulation (dependency, outage, exploit)
+  - `src/dashboard/` — Terminal UI + Express web dashboard
+  - `src/utils/` — Logger, retry helper, timer
+  - `public/` — Frontend dashboard (HTML/CSS/JS)
+  - `data/` — JSON-based local persistence (health, incidents, ledger, risk history)
+- **Auth:** EOA wallet signature via Viem (`privateKeyToAccount` → sign message → JWT login/register through Bento SDK)
 - **What's on-chain vs off-chain:**
+  - *On-chain:* Prediction market creation, YES/NO bet placement, market resolution (all via Bento SDK on testnet)
+  - *Off-chain:* Evidence crawling (Anakin API), AI incident analysis (OpenAI), risk scoring, scheduling, dashboard, local data persistence
 
-Optional: drop a simple diagram in `./assets/architecture.png`.
+## Architecture Diagram
+![SystemArchitecture](./assets/SystemArchitecture.jpeg)
+
+## Sequence Flow Diagram
+![SequenceFlow](./assets/SequenceFlow.jpeg)
