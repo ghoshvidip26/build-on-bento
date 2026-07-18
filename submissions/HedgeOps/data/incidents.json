@@ -1,0 +1,650 @@
+[
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "EXPLOIT",
+    "severity": "HIGH",
+    "sentiment": "STALLED",
+    "daysStagnant": 4,
+    "confidence": 0.94
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "OUTAGE",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 15,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.9
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.87
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.87
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 0,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.78
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "HIGH",
+    "sentiment": "FRUSTRATED",
+    "daysStagnant": 18,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.84
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.87
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.87
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.84
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.87
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.82
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.87
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.86
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.84
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.92
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.91
+  },
+  {
+    "targetId": "react/react",
+    "incidentType": "DEPENDENCY",
+    "severity": "LOW",
+    "sentiment": "ACTIVE",
+    "daysStagnant": 1,
+    "confidence": 0.88
+  }
+]

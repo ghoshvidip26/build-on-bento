@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HedgeOps — SRE Control Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Animated background -->
+  <div class="bg-gradient"></div>
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <div class="app">
+    <!-- Header -->
+    <header class="header glass">
+      <div class="header-left">
+        <div class="logo">
+          <span class="logo-icon">⚡</span>
+          <h1>HedgeOps</h1>
+        </div>
+        <span class="version-badge">v2.0</span>
+      </div>
+      <div class="header-center">
+        <div class="status-pill" id="modePill">
+          <span class="pulse"></span>
+          <span id="modeText">LOADING</span>
+        </div>
+        <div class="target-display">
+          <span class="target-label">TARGET</span>
+          <span class="target-value" id="targetRepo">—</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="step-indicator" id="stepIndicator">
+          <span class="step-dot"></span>
+          <span id="stepText">IDLE</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Control Bar -->
+    <section class="control-bar glass">
+      <div class="control-group">
+        <button class="ctrl-btn scheduler-btn" id="schedulerToggle" onclick="toggleScheduler()">
+          <span class="ctrl-icon" id="schedulerIcon">⏸</span>
+          <span id="schedulerBtnText">Stop Scheduler</span>
+        </button>
+      </div>
+      <div class="control-group">
+        <span class="control-label">Trigger Incident:</span>
+        <button class="ctrl-btn incident-btn outage" onclick="triggerIncident('DEPENDENCY', event)">🔥 Outage</button>
+      </div>
+    </section>
+
+    <!-- Top Metrics Row -->
+    <section class="metrics-row">
+      <div class="metric-card glass" id="fragilityCard">
+        <div class="metric-label">Fragility Index</div>
+        <div class="metric-value" id="fragility">—</div>
+        <div class="metric-bar">
+          <div class="metric-bar-fill" id="fragilityBar"></div>
+        </div>
+      </div>
+      <div class="metric-card glass">
+        <div class="metric-label">AI Confidence</div>
+        <div class="metric-value" id="confidence">—</div>
+        <div class="metric-bar">
+          <div class="metric-bar-fill confidence-bar" id="confidenceBar"></div>
+        </div>
+      </div>
+      <div class="metric-card glass">
+        <div class="metric-label">Action Strategy</div>
+        <div class="metric-value action-value" id="action">—</div>
+        <div class="metric-sub" id="recommendation">—</div>
+      </div>
+      <div class="metric-card glass">
+        <div class="metric-label">Pipeline Latency</div>
+        <div class="metric-value" id="totalLatency">—</div>
+        <div class="metric-sub" id="latencyBreakdown">—</div>
+      </div>
+    </section>
+
+    <!-- Main Grid -->
+    <section class="main-grid">
+      <!-- Evidence Panel -->
+      <div class="panel glass" id="evidencePanel">
+        <div class="panel-header">
+          <span class="panel-icon">🔍</span>
+          <h2>Repository Intelligence</h2>
+        </div>
+        <div class="panel-body">
+          <div class="data-grid">
+            <div class="data-item">
+              <span class="data-label">Repo Health</span>
+              <span class="data-value" id="repoHealth">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Open Issues</span>
+              <span class="data-value" id="openIssues">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Issue Velocity</span>
+              <span class="data-value" id="issueVelocity">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Security Advisories</span>
+              <span class="data-value" id="securityAdvisories">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Commit Frequency</span>
+              <span class="data-value" id="commitFrequency">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Maintainer Response</span>
+              <span class="data-value" id="maintainerResponse">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analysis Panel -->
+      <div class="panel glass" id="analysisPanel">
+        <div class="panel-header">
+          <span class="panel-icon">🧠</span>
+          <h2>AI Brain Analysis</h2>
+        </div>
+        <div class="panel-body">
+          <div class="data-grid">
+            <div class="data-item">
+              <span class="data-label">Incident Type</span>
+              <span class="data-value badge" id="incidentType">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Severity</span>
+              <span class="data-value badge" id="severity">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Developer Sentiment</span>
+              <span class="data-value badge" id="sentiment">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Days Stagnant</span>
+              <span class="data-value" id="daysStagnant">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Confidence Score</span>
+              <span class="data-value" id="analysisConfidence">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Catastrophic</span>
+              <span class="data-value" id="catastrophic">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bento Markets Panel -->
+      <div class="panel glass" id="txPanel">
+        <div class="panel-header">
+          <span class="panel-icon">🚀</span>
+          <h2>Bento Market Operations</h2>
+          <span class="market-count" id="marketCount"></span>
+        </div>
+        <div class="panel-body">
+          <div id="marketsListContainer">
+            <div class="tx-no-data" id="noMarketsMsg">No active markets</div>
+          </div>
+        </div>
+      </div>
+      <!-- Health Panel -->
+      <div class="panel glass" id="healthPanel">
+        <div class="panel-header">
+          <span class="panel-icon">💓</span>
+          <h2>System Health</h2>
+        </div>
+        <div class="panel-body">
+          <div class="data-grid">
+            <div class="data-item">
+              <span class="data-label">Uptime</span>
+              <span class="data-value" id="uptime">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Memory</span>
+              <span class="data-value" id="memory">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">CPU Load</span>
+              <span class="data-value" id="cpuLoad">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">API Success Rate</span>
+              <span class="data-value" id="apiSuccess">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Scheduler Drift</span>
+              <span class="data-value" id="schedulerDrift">—</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Scheduler Status</span>
+              <span class="data-value badge" id="schedulerStatus">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Usage Section -->
+    <section class="ai-section glass">
+      <div class="panel-header">
+        <span class="panel-icon">🤖</span>
+        <h2>ChatGPT Usage & Cost</h2>
+      </div>
+      <div class="ai-stats">
+        <div class="ai-stat">
+          <span class="ai-stat-value" id="aiRequests">0</span>
+          <span class="ai-stat-label">Total Requests</span>
+        </div>
+        <div class="ai-stat">
+          <span class="ai-stat-value" id="aiSuccess">0</span>
+          <span class="ai-stat-label">Successful</span>
+        </div>
+        <div class="ai-stat">
+          <span class="ai-stat-value" id="aiFailed">0</span>
+          <span class="ai-stat-label">Failed</span>
+        </div>
+        <div class="ai-stat">
+          <span class="ai-stat-value" id="aiLatency">0ms</span>
+          <span class="ai-stat-label">Avg Latency</span>
+        </div>
+        <div class="ai-stat">
+          <span class="ai-stat-value" id="aiTokens">0</span>
+          <span class="ai-stat-label">Tokens Used</span>
+        </div>
+        <div class="ai-stat">
+          <span class="ai-stat-value" id="aiCost">$0.00</span>
+          <span class="ai-stat-label">Est. Cost</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Logs -->
+    <section class="logs-section glass">
+      <div class="panel-header">
+        <span class="panel-icon">📡</span>
+        <h2>Live SRE Stream</h2>
+        <span class="live-dot"></span>
+      </div>
+      <div class="logs-container" id="logsContainer">
+        <div class="log-placeholder">Waiting for engine events...</div>
+      </div>
+    </section>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

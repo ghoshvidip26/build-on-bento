@@ -1,0 +1,569 @@
+[
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.39762328134305636,
+    "confidence": 0.94,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.6569948094817669,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "ALERT",
+    "action": "WARN"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.9,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.87,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.87,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.78,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "WARN"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.8220531257327134,
+    "confidence": 0.91,
+    "catastrophic": true,
+    "recommendation": "SHORT",
+    "action": "EXECUTE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.84,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.87,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.87,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.84,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.87,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.82,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.87,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.021662695506375014,
+    "confidence": 0.86,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.01805224625531251,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.01805224625531251,
+    "confidence": 0.84,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.01805224625531251,
+    "confidence": 0.92,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.01805224625531251,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.01805224625531251,
+    "confidence": 0.91,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  },
+  {
+    "probability": 0.01805224625531251,
+    "confidence": 0.88,
+    "catastrophic": false,
+    "recommendation": "IGNORE",
+    "action": "NONE"
+  }
+]
